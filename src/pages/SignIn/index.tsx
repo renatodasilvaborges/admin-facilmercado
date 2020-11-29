@@ -78,7 +78,7 @@ const SignIn: React.FC = () => {
                     <img src={logoImg} alt="FacilMercado" />
 
                     <Form ref={formRef} onSubmit={handleSubmit}>
-                        <h1>Faça o seu logon</h1>
+                        <h1>Acesse o admin</h1>
                         <Input name="email" icon={FiMail} placeholder="E-mail" />
                         <Input name="password" icon={FiLock} type="password" placeholder="Senha"  />
                         <Button type="submit">Entrar</Button>
